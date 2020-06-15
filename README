@@ -1,10 +1,9 @@
 Follow the instructions to get asciiflow running locally.
 
+Install the closure-compiler package on your GNU/Linux distribution.
+
 Compile the javascript:
 ~/asciiflow2$ ./compile.sh
-
-If you get a permissions error:
-~/asciiflow2$ chmod a+x closure-compiler.jar
 
 Run a simple web server:
 ~/asciiflow2$python -m SimpleHTTPServer
